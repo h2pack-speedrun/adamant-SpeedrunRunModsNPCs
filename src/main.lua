@@ -64,9 +64,9 @@ public.definition = {
     id           = "RunModsNPCs",
     name         = "Run Modifiers: NPCs & Routing",
     category     = "Run Modifiers",
-    group        = "NPCs & Routing",
+    subgroup     = "NPCs & Routing",
     tooltip      = "Run modifier options for NPC spawns and routing.",
-    default      = true,
+    default      = dataDefaults.Enabled,
     affectsRunData = true,
 }
 
@@ -115,4 +115,3 @@ end)
 local uiCallback = lib.standaloneUI(public.definition, store)
 ---@diagnostic disable-next-line: redundant-parameter
 rom.gui.add_to_menu_bar(uiCallback)
-

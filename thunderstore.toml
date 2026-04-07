@@ -4,7 +4,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "adamant"
 name = "Speedrun_RunModsNPCs"
-description = "TODO: description for RunModsNPCs"
+description = "Provides several adjustments to NPC interactions."
 versionNumber = "0.0.1"
 websiteUrl = "https://github.com/h2pack-speedrun/adamant-Speedrun_RunModsNPCs"
 containsNsfwContent = false
